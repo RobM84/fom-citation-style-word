@@ -133,7 +133,7 @@
         <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
       </source>
       <source type="Book">
-        <format>{%CitationPrefix%}%Author:1%{, S. %CitationPages%}{%CitationSuffix%}</format>
+        <format>{%CitationPrefix%}%Author:1%{: %Title%}{, S. %CitationPages%}{%CitationSuffix%}</format>
       </source>
       <source type="BookSection">
         <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
@@ -145,7 +145,7 @@
         <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
       </source>
       <source type="InternetSite">
-        <format>{%CitationPrefix%}{%InternetSiteTitle%}{, %Title|ShortTitle%}{%CitationSuffix%}</format>
+        <format>{%CitationPrefix%}{%Author:1%: }{%InternetSiteTitle%}{, %Title|ShortTitle%}{%CitationSuffix%}</format>
       </source>
       <source type="DocumentFromInternetSite">
         <format>{%CitationPrefix%}{%InternetSiteTitle%}{, %Title|ShortTitle%}{%CitationSuffix%}</format>
@@ -180,7 +180,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2|Editor:3% {(%Year%)}:}{ %Title|ShortTitle|BookTitle%{, %Edition%. Aufl.}{ %Volume%}.}{ %Publisher%}{, %City%}{, %CountryRegion%}{ %Year%}{ %Comments%}</format>
+          <format>{%Author:2|Editor:3% {(%Year%)}:}{ %Title|ShortTitle|BookTitle%{, %Edition%. Aufl.}{ %Volume%}}{ %Publisher%}{, %City%}{, %CountryRegion%}{ %Year%}{ %Comments%}</format>
         </column>
       </source>
       <source type="BookSection">
@@ -215,7 +215,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Title|ShortTitle%}{, %InternetSiteTitle%}{, %URL:l%}{ (Stand: %DayAccessed%.%MonthAccessed%.%YearAccessed%)}</format>
+          <format>{%Author:2%: }{%Title|ShortTitle%}{, %InternetSiteTitle%}{, %URL:l%}{ (Stand: %DayAccessed%.%MonthAccessed%.%YearAccessed%)}</format>
         </column>
       </source>
       <source type="JournalArticle">
