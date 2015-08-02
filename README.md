@@ -34,5 +34,4 @@ Please note that this is work in progress.
 1. Sometimes a restart of Microsoft Word is necessary
 
 ## Installation hints for Microsoft Office for Windows
-1. 
-1. Sometimes a restart of Microsoft Word is necessary
+*It would be great if someone could test*
