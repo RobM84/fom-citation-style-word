@@ -133,7 +133,7 @@
         <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
       </source>
       <source type="Book">
-        <format>{%CitationPrefix%}%Author:3%{ (%Year%)}{, S. %CitationPages%}{%CitationSuffix%}</format>
+        <format>{%CitationPrefix%}Vgl. %Author:3%{ (%Year%)}{, S. %CitationPages%}{%CitationSuffix%}</format>
       </source>
       <source type="BookSection">
         <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
@@ -145,10 +145,10 @@
         <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
       </source>
       <source type="InternetSite">
-        <format>{%CitationPrefix%}{%Author:1%: }{%InternetSiteTitle%}{, %Title|ShortTitle%}{%CitationSuffix%}</format>
+        <format>{%CitationPrefix%}Vgl. {%Author:1%: }{%InternetSiteTitle%}{, %Title|ShortTitle%}{%CitationSuffix%}</format>
       </source>
       <source type="DocumentFromInternetSite">
-        <format>{%CitationPrefix%}{%InternetSiteTitle%}{, %Title|ShortTitle%}{%CitationSuffix%}</format>
+        <format>{%CitationPrefix%}Vgl. {%InternetSiteTitle%}{, %Title|ShortTitle%}{%CitationSuffix%}</format>
       </source>
       <source type="JournalArticle">
         <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
