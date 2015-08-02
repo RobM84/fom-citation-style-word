@@ -133,7 +133,7 @@
         <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
       </source>
       <source type="Book">
-        <format>{%CitationPrefix%}%Author:1%{: %Title%}{, S. %CitationPages%}{%CitationSuffix%}</format>
+        <format>{%CitationPrefix%}%Author:3%{ (%Year%)}{, S. %CitationPages%}{%CitationSuffix%}</format>
       </source>
       <source type="BookSection">
         <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
@@ -290,8 +290,8 @@
         <max_number_of_persons_to_display>100</max_number_of_persons_to_display>
         <number_of_persons_to_display_if_more_than_max>100</number_of_persons_to_display_if_more_than_max>
         <overflow> et al.</overflow>
-        <single_suffix>, ed.</single_suffix>
-        <multi_suffix>, eds.</multi_suffix>
+        <single_suffix></single_suffix>
+        <multi_suffix></multi_suffix>
       </list>
     </namelists>
     <strings>
