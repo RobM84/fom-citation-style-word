@@ -114,12 +114,8 @@
       <source type="Report">
         <b:ImportantField>b:Author/b:Author/b:NameList</b:ImportantField>
         <b:ImportantField>b:Title</b:ImportantField>
-        <b:ImportantField>b:StandardNumber</b:ImportantField>
         <b:ImportantField>b:Institution</b:ImportantField>
-        <b:ImportantField>b:City</b:ImportantField>
-        <b:ImportantField>b:Year</b:ImportantField>
-        <b:ImportantField>b:ThesisType</b:ImportantField>
-        <b:ImportantField>b:Type</b:ImportantField>
+        <b:ImportantField>b:Year</b:ImportantField>        
       </source>
     </importantfields>
     <citation>
@@ -133,7 +129,7 @@
         <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
       </source>
       <source type="Book">
-        <format>{%CitationPrefix%}Vgl. %Author:3%{ (%Year%)}{, S. %CitationPages%}{%CitationSuffix%}</format>
+        <format>{%CitationPrefix%}%Author:3%{ (%Year%)}{, S. %CitationPages%}{%CitationSuffix%}</format>
       </source>
       <source type="BookSection">
         <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
@@ -145,19 +141,19 @@
         <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
       </source>
       <source type="InternetSite">
-        <format>{%CitationPrefix%}Vgl. {%Author:1%: }{%InternetSiteTitle%}{, %Title|ShortTitle%}{%CitationSuffix%}</format>
+        <format>{%CitationPrefix%}{%Author:1%: }{%InternetSiteTitle%}{, %Title|ShortTitle%}{%CitationSuffix%}</format>
       </source>
       <source type="DocumentFromInternetSite">
-        <format>{%CitationPrefix%}Vgl. {%InternetSiteTitle%}{, %Title|ShortTitle%}{%CitationSuffix%}</format>
+        <format>{%CitationPrefix%}{%InternetSiteTitle%}{, %Title|ShortTitle%}{%CitationSuffix%}</format>
       </source>
       <source type="JournalArticle">
-        <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
+        <format>{%CitationPrefix%}%Author:3%: {%Title%}{ (%Year%)}{%CitationSuffix%}</format>
       </source>
       <source type="Misc">
         <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
       </source>
       <source type="Report">
-        <format>{%CitationPrefix%}%RefOrder%{%CitationSuffix%}</format>
+        <format>{%CitationPrefix%}%Author:3%{ (%Year%)} {%Title%}{, %Title|ShortTitle%}{%CitationSuffix%}</format>
       </source>
     </citation>
     <bibliography>
@@ -257,8 +253,8 @@
         <separator_between_if_two> / </separator_between_if_two>
         <separator_between_if_more_than_two> / </separator_between_if_more_than_two>
         <separator_before_last> / </separator_before_last>
-        <max_number_of_persons_to_display>100</max_number_of_persons_to_display>
-        <number_of_persons_to_display_if_more_than_max>100</number_of_persons_to_display_if_more_than_max>
+        <max_number_of_persons_to_display>2</max_number_of_persons_to_display>
+        <number_of_persons_to_display_if_more_than_max>1</number_of_persons_to_display_if_more_than_max>
         <overflow> et al.</overflow>
         <single_suffix></single_suffix>
         <multi_suffix></multi_suffix>
@@ -272,8 +268,8 @@
         <separator_between_if_two> / </separator_between_if_two>
         <separator_between_if_more_than_two> / </separator_between_if_more_than_two>
         <separator_before_last> / </separator_before_last>
-        <max_number_of_persons_to_display>100</max_number_of_persons_to_display>
-        <number_of_persons_to_display_if_more_than_max>100</number_of_persons_to_display_if_more_than_max>
+        <max_number_of_persons_to_display>2</max_number_of_persons_to_display>
+        <number_of_persons_to_display_if_more_than_max>1</number_of_persons_to_display_if_more_than_max>
         <overflow> et al.</overflow>
         <single_suffix></single_suffix>
         <multi_suffix></multi_suffix>
@@ -287,8 +283,8 @@
         <separator_between_if_two>, </separator_between_if_two>
         <separator_between_if_more_than_two>, </separator_between_if_more_than_two>
         <separator_before_last>, </separator_before_last>
-        <max_number_of_persons_to_display>100</max_number_of_persons_to_display>
-        <number_of_persons_to_display_if_more_than_max>100</number_of_persons_to_display_if_more_than_max>
+        <max_number_of_persons_to_display>2</max_number_of_persons_to_display>
+        <number_of_persons_to_display_if_more_than_max>1</number_of_persons_to_display_if_more_than_max>
         <overflow> et al.</overflow>
         <single_suffix></single_suffix>
         <multi_suffix></multi_suffix>
