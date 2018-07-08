@@ -5,10 +5,8 @@ The stylesheet is based on the following document:
 http://winfwiki.wi-fom.de/index.php/Meine_erste_wissenschaftliche_Hausarbeit#Beispiele_f.C3.BCr_Literaturangaben
 
 ## Working Office Versions
-Microsoft Office for Mac 2011 
-
-## Not working with Office Versions
-Microsoft Office for Mac 2016
+- Microsoft Office for Mac 2011
+- Microsoft Office for Mac 2016
 
 ## Untested Office Versions
 Microsof Office for Windows (all Versions untested)
